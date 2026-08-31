@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.navlink-ops {
+  @apply flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200  bg-indigo-50 text-indigo-700 hover:bg-indigo-100 hover:text-indigo-800 ring-1 ring-indigo-200/50 hover:ring-indigo-300 shadow-sm hover:shadow;
+}
+
+.job-create-label {
+  @apply block text-sm font-semibold text-gray-700
+}
+
+.job-create-input {
+  @apply w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition duration-200
+}
